@@ -16,4 +16,9 @@ export class AppComponent
   public vessel_length!: number;
 
   public result!: number;
+
+  Answer()
+  {
+    this.result = (Math.PI*this.p_value*Math.pow(this.r_value,4)*this.time_value)/(8*this.Constant_value*this.vessel_length)
+  }
 }
