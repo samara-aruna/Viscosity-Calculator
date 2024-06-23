@@ -1,0 +1,44 @@
+<h1><marquee> Viscosity Online Calculator</marquee></h1>
+<img src ="assets/image1.jpg">
+<p> viscosity, resistance of a fluid (liquid or gas) to a change in shape,<br> or movement of neighbouring portions relative to one another. <br>Viscosity denotes opposition to flow. <br>The reciprocal of the viscosity is called the fluidity, <br>a measure of the ease of flow. Molasses, <br>for example, has a greater viscosity than water.</p>
+<table border="0">
+    <tr>
+        <td><iframe width="560" height="315" src="https://www.youtube.com/embed/VvDJyhYSJv8?si=DJq1QaV_XKNXe_Qd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        <td class="two"><iframe width="560" height="315" src="https://www.youtube.com/embed/wPk7_wm4uMs?si=CUdpuYwc7R3wFjyk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+
+    </tr>
+</table>
+<h2> Enter Your values</h2>
+
+<form>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputEmail4">Enter your Change of Pressure Value </label>
+        <input type="number" class="form-control" id="p_value" placeholder="P Value" [(ngModel)]="p_value">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputPassword4">Enter your Radius of Vessel Value</label>
+        <input type="number" class="form-control" id="r_value" placeholder="Radius Value" [(ngModel)]="r_value">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputAddress">Enter your Time Value</label>
+      <input type="number" class="form-control" id="time_value" placeholder="Time Value" [(ngModel)]="time_value">
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-4">
+        <label for="inputState">Enter your Viscosity Constant Value</label>
+        <input type="number" class="form-control" id="Constant_value" placeholder="Viscosity Constant Value" [(ngModel)]="Constant_value">
+      </div>
+      <div class="form-group col-md-2">
+        <label for="inputZip">Vessel Length</label>
+        <input type="number" class="form-control" id="vessel_length" placeholder="Vessel Length" [(ngModel)]="vessel_length">
+      </div>
+    </div>
+    <div class="form-group">
+     
+    </div>
+    <button type="submit" class="btn btn-primary">Get Result</button><br>
+    <label for="inputEmail4">Result of Volume in Vessel</label>
+        <input type="number" class="form-control" id="inputEmail4" placeholder="Result">
+  </form>

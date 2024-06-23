@@ -1,0 +1,70 @@
+h1
+{
+    color:darkgreen;
+    font-size:50px;
+    font-weight:bold;
+    background-color:#FDFA72;
+    margin-left:1cm;
+    margin-right:1cm;
+    margin-top:1cm;
+    border-radius: 30px;
+}
+img
+{
+    width:1300px;
+    height:500px;
+    margin-left:0.9cm;
+    border-radius: 30px;
+    animation: popupAnimation 14s ease-in-out infinite;
+}
+p
+{
+    color:darkred;
+    font-weight:bold;
+    font-size:20px;
+    text-align:center;
+    margin-top:1cm;
+    background-color:burlywood;
+    margin-left:1cm;
+    margin-right:1cm;
+    border-radius: 30px;
+}
+
+@keyframes popupAnimation {
+    0%, 100% {
+        transform: scale(0.9);
+        box-shadow: none;
+    }
+    50% {
+        transform: scale(1);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    }
+}
+table
+{
+    margin-left:3cm;
+}
+h2
+{
+    font-size: 50px;
+    color: darkblue;
+    font-weight: bold;
+    text-align: center;
+    background-color:#FDFA72;
+    margin-left:1cm;
+    margin-right:1cm;
+    margin-top:0.5cm;
+    border-radius: 30px;
+}
+
+form
+{
+    margin-left:5cm;
+    margin-right: 5cm;
+    border:solid;
+    padding:30px;
+}
+.btn 
+{
+    margin-left:11cm;
+}
