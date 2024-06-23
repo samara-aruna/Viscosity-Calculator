@@ -17,25 +17,25 @@
     <div class="form-row">
       <div class="form-group col-md-6">
         <label for="inputEmail4">Enter your Change of Pressure Value </label>
-        <input type="number" class="form-control" name="p_value" placeholder="P Value" [(ngModel)]="p_value">
+        <input type="number" class="form-control" name="p_value" placeholder="P Value with 'Pa' Units" [(ngModel)]="p_value">
       </div>
       <div class="form-group col-md-6">
         <label for="inputPassword4">Enter your Radius of Vessel Value</label>
-        <input type="number" class="form-control" name="r_value" placeholder="Radius Value" [(ngModel)]="r_value">
+        <input type="number" class="form-control" name="r_value" placeholder="Radius Value with 'm' Units " [(ngModel)]="r_value">
       </div>
     </div>
     <div class="form-group">
       <label for="inputAddress">Enter your Time Value</label>
-      <input type="number" class="form-control" name="time_value" placeholder="Time Value" [(ngModel)]="time_value">
+      <input type="number" class="form-control" name="time_value" placeholder="Time Value with 's' Units" [(ngModel)]="time_value">
     </div>
     <div class="form-row">
       <div class="form-group col-md-4">
         <label for="inputState">Enter your Viscosity Constant Value</label>
-        <input type="number" class="form-control" name="Constant_value" placeholder="Viscosity Constant Value" [(ngModel)]="Constant_value">
+        <input type="number" class="form-control" name="Constant_value" placeholder="Viscosity Constant Value with 'Pa.s' Units " [(ngModel)]="Constant_value">
       </div>
       <div class="form-group col-md-2">
         <label for="inputZip">Vessel Length</label>
-        <input type="number" class="form-control" name="vessel_length" placeholder="Vessel Length" [(ngModel)]="vessel_length">
+        <input type="number" class="form-control" name="vessel_length" placeholder="Vessel Length with 'm' Units" [(ngModel)]="vessel_length">
       </div>
     </div>
     <div class="form-group">
@@ -45,4 +45,6 @@
        
   </form>
 
-  <p class="Answer">Result of Volume in Vessel : {{result}}  </p>
+  <p class="Answer">Result of Volume in Vessel : {{result}} m^3  </p>
+
+  <img src="assets/Viscosity_Banner.png">
